@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+           <snapshotRepository>
+              <id>thirdparty</id>
+              <url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
+           </snapshotRepository>
+  </distributionManagement>
+  
   <build>
     <finalName>CounterWebApp</finalName>
   </build>
